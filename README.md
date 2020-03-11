@@ -4,4 +4,4 @@
 
 ### 说明
 
-<font color=red>如果只是</font>
+<font color=#CC9900>如果只是</font>
