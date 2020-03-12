@@ -4,5 +4,11 @@
 
 ### 说明
 
-<font color=#CC9900>如果只是</font><br>
-<span style="color:red" background='red'>有颜色吗</span>
+<font face="STCAIYUN">如果只是需要嵌入已存在的swagger项目，
+加上maven配置，加入test里的Swagger2Doc.java修改url就可以了。
+</font>
+<br>实现转换使用的是Swagger2Markup
+
+### 如何使用swaggerdoc
+
+

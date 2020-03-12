@@ -28,6 +28,7 @@ target/
 /.mvn/
 build/
 /docs/
+/tmp/
 /logs/
 
 ### VS Code ###
