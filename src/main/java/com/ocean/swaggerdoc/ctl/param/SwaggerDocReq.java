@@ -15,7 +15,7 @@ import javax.validation.constraints.Pattern;
 @Data
 @ApiModel(description = "swagger to doc req-params")
 public class SwaggerDocReq {
-    @ApiModelProperty(value = "含义：待导出swagger-api地址；" , required = true, example = "http://localhost:8080/swagger2doc/v2/api-docs")
+    @ApiModelProperty(value = "含义：待导出swagger-api地址；" , required = true, example = "http://10.0.41.235:8080/v2/api-docs")
     @Pattern(regexp = "^([hH][tT]{2}[pP]:/*|[hH][tT]{2}[pP][sS]:/*|[fF][tT][pP]:/*)(([A-Za-z0-9-~]+).)+([A-Za-z0-9-~\\\\/])+(\\\\?{0,1}(([A-Za-z0-9-~]+\\\\={0,1})([A-Za-z0-9-~]*)\\\\&{0,1})*)$")
     private String url;
 

@@ -18,7 +18,7 @@ public class AsyncJob {
     @Async
     public void deleteFile(final String filePath){
         try {
-            Thread.sleep(10000);
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
