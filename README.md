@@ -91,6 +91,25 @@ Confluence的效果（截图内容都是冰山一角）<br>
 ![image](https://github.com/OceanBBBBbb/swaggerdoc/blob/master/mdfiles/cf.png)
 <br>
 
+<a name="demoreq"></a>
+### DemoReq
+示例的接口请求参数
+
+
+|名称|说明|类型|
+|---|---|---|
+|**age**  <br>*必填*|含义：年龄；  <br>**样例** : `21`|integer (int32)|
+|**name**  <br>*必填*|含义：姓名；  <br>**样例** : `"张三"`|string|
+
+
+<a name="demorsp"></a>
+### DemoRsp
+
+|名称|说明|类型|
+|---|---|---|
+|**age**  <br>*必填*|含义：年龄；  <br>**样例** : `21`|integer (int32)|
+|**name**  <br>*必填*|含义：姓名；  <br>**样例** : `"张三"`|string|
+|**vip**  <br>*可选*|**样例** : `true`|boolean|
 
 
 
